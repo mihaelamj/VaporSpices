@@ -1,3 +1,6 @@
+import Foundation
+import Fluent
+
 public extension MigrationConfig {
   public mutating func addVaporSpices<D>(for database: DatabaseIdentifier<D>) where D: QuerySupporting & SchemaSupporting & IndexSupporting & ReferenceSupporting {
     
