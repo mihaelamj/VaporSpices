@@ -4,7 +4,7 @@ Vapor 3 Package for pre-populating any database with Spice related data.
 
 Import it into your project:
 ```
-let package = Package(name: "TestVaporCountries",
+let package = Package(name: "TestVaporSpices",
 dependencies: [      
 //VaporSpices
   .package(url: "https://github.com/mihaelamj/VaporSpices", from: "0.1.0")
