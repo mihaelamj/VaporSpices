@@ -7,7 +7,7 @@ Import it into your project:
 let package = Package(name: "TestVaporCountries",
 dependencies: [      
 //VaporSpices
-  .package(url: "https://github.com/mihaelamj/VaporSpices", from: "0.0.2")
+  .package(url: "https://github.com/mihaelamj/VaporSpices", from: "0.1.0")
 ],
 targets: [
   .target(name: "App", dependencies: ["FluentSQLite", "FluentMySQL", "FluentPostgreSQL", "VaporSpices"]),
