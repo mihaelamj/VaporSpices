@@ -20,7 +20,7 @@ Usage (for MySQL) :
 import VaporSpices
 
 migrations.addVaporSpices(for: .mysql)
-  ```
+```
 
  Usage (for PostgreSQL) : 
 
