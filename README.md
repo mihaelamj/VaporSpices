@@ -13,6 +13,7 @@ targets: [
   .target(name: "App", dependencies: ["FluentSQLite", "FluentMySQL", "FluentPostgreSQL", "VaporSpices"]),
 ]
 )
+```
 
 Usage (for MySQL) :
 
